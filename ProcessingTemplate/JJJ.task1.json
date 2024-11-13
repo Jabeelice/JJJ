@@ -1,4 +1,7 @@
 {
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 3,
   "node": "Jabee_Linux",
   "owner": "rest_user",
   "priority": "0",

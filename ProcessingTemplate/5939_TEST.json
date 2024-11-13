@@ -1,0 +1,29 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 3,
+  "node": "Jabee_Linux",
+  "owner": "Jabee",
+  "postScript": "echo \"ANOWVAR:PARENT.pro_status=${processingStatus}\"\necho \"ANOWVAR:PARENT.exit_code=${exitCode}\"\necho \"ANOWVAR:PARENT.exit_status=${exitMessage}\"",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "uname -a\ndate\necho \"id_vara :${id}\"\necho \"ANOWVAR:PARENT.test_type=${node}\"\necho \"ANOWVAR:PARENT.id_vara=${id}\"\necho \"ANOWVAR:PARENT.test101_name=${name}\"\necho \"ANOWVAR:PARENT.pro_status=${processingStatus}\"\necho \"ANOWVAR:PARENT.exit_code=${exitCode}\"\necho \"ANOWVAR:PARENT.exit_status=${exitMessage}\"\n"
+  },
+  "designParameters": 
+  [
+    {
+      "defaultValue": "ENCRYPTED::CRATEAcKFgoREAcKFhMbDAwM",
+      "editorType": "PASSWORD",
+      "name": "test",
+      "required": true,
+      "title": "test"
+    }
+  ]
+}
