@@ -1,0 +1,29 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 3,
+  "owner": "Jabee",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "INTERNAL",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "taskType": "ARCHIVE",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "actionTargetType": "CRITERIA",
+    "criteria": {
+      "processingTemplate": "5939_TEST",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "showAdvancedCriteria": true,
+      "taskType": "SH"
+    },
+    "keepForcedStatus": true,
+    "operator": "",
+    "restartType": "RESTART_FROM_BEGINNING",
+    "resultMax": 10000,
+    "resultMin": 1
+  }
+}
