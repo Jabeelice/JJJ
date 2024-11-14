@@ -14,7 +14,7 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "uname -a\ndate\necho \"id_vara :${id}\"\necho \"ANOWVAR:PARENT.test_type=${node}\"\necho \"ANOWVAR:PARENT.id_vara=${id}\"\necho \"ANOWVAR:PARENT.test101_name=${name}\"\necho \"ANOWVAR:PARENT.pro_status=${processingStatus}\"\necho \"ANOWVAR:PARENT.exit_code=${exitCode}\"\necho \"ANOWVAR:PARENT.exit_status=${exitMessage}\"\n"
+    "script": "uname -a\ndate\necho \"id_vara :${id}\"\necho \"ANOWVAR:PARENT.test_type=${node}\"\necho \"ANOWVAR:PARENT.id_vara=${id}\"\necho \"ANOWVAR:PARENT.test101_name=${name}\"\necho \"ANOWVAR:PARENT.pro_status=${processingStatus}\"\necho \"ANOWVAR:PARENT.exit_code=${exitCode}\"\necho \"ANOWVAR:PARENT.exit_status=${exitMessage}\"\necho ${my.dictionary}"
   },
   "designParameters": 
   [
@@ -24,6 +24,14 @@
       "name": "test",
       "required": true,
       "title": "test"
+    },
+    {
+      "allowExpressions": true,
+      "defaultValue": "18",
+      "editorType": "DICTIONARY",
+      "name": "my.dictionary",
+      "optionDataSource": "123",
+      "title": "dictionary"
     }
   ]
 }
