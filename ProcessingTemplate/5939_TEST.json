@@ -27,7 +27,7 @@
     },
     {
       "allowExpressions": true,
-      "defaultValue": "18",
+      "defaultValue": "1114",
       "editorType": "DICTIONARY",
       "name": "my.dictionary",
       "optionDataSource": "123",
