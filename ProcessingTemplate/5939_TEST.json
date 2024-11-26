@@ -28,7 +28,6 @@
     },
     {
       "allowExpressions": true,
-      "defaultValue": "3",
       "editorType": "DICTIONARY",
       "name": "my.dictionary",
       "optionDataSource": "123",
