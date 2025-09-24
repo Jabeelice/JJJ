@@ -17,6 +17,23 @@
   "processingCommand": {
     "script": "uname -b\ndate\necho \"id_vara :${id}\"\necho \"ANOWVAR:PARENT.test_type=${node}\"\necho \"ANOWVAR:PARENT.id_vara=${id}\"\necho \"ANOWVAR:PARENT.test101_name=${name}\"\necho \"ANOWVAR:PARENT.pro_status=${processingStatus}\"\necho \"ANOWVAR:PARENT.exit_code=${exitCode}\"\necho \"ANOWVAR:PARENT.exit_status=${exitMessage}\"\necho ${my.dictionary}"
   },
+  "actions": 
+  [
+    {
+      "processingActionType": "RESTART",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartCounter": 1,
+        "restartDelay": 900000,
+        "restartDelayMode": "FINISH_TO_START",
+        "restartMode": "COUNTER",
+        "restartType": "RESTART_FROM_BEGINNING"
+      }
+    }
+  ],
   "designParameters": 
   [
     {
