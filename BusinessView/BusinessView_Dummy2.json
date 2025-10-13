@@ -1,0 +1,11 @@
+{
+  "items": 
+  [
+    {
+      "businessViewItemType": "PROCESSING",
+      "item": "Parent_Workflow2",
+      "processingType": "WORKFLOW",
+      "workflowType": "STANDARD"
+    }
+  ]
+}
