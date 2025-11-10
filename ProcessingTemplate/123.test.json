@@ -11,6 +11,12 @@
   "serverNodeType": "LINUX",
   "statisticMethod": "MEDIAN",
   "statisticPeriod": "ALL",
+  "tags": 
+  [
+    "a",
+    "7778",
+    "b"
+  ],
   "taskType": "SH",
   "title": "asdasdasd",
   "customFieldValues": {
