@@ -1,0 +1,23 @@
+{
+  "monitorType": "POWERSHELL_MONITOR",
+  "node": "Jabee_Windows",
+  "owner": "Jabee",
+  "priority": "0",
+  "processingType": "SERVICE",
+  "serverNodeType": "WINDOWS",
+  "serviceType": "MONITOR",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "tags": 
+  [
+    "7427"
+  ],
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "hgkfgjhfkjg",
+    "serviceMode": {
+      "runMode": "ONCE"
+    }
+  }
+}
