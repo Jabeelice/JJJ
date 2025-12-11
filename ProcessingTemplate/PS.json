@@ -1,0 +1,12 @@
+{
+  "monitorType": "POWERSHELL_MONITOR",
+  "owner": "Jabee",
+  "priority": "0",
+  "processingType": "SERVICE",
+  "serverNodeType": "WINDOWS",
+  "serviceType": "MONITOR",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "customFieldValues": {
+  }
+}
